@@ -18,14 +18,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Collections;
 
-// 2024394443:AAFpm5QWmc4fQr3p3xar8dvBWMMZkqJNhRY SAWEEKbot
-// 1957034208:AAGeDu0lknBvj0EJOzq8LZRqaGYeVIzCh5Q Давайте попробуем
-
 // 
 //      ПЕРЕМЕННЫЕ ДЛЯ ИСПОЛЬЗОВАНИЯ В КОДЕ
 // 
 
-var botClient = new TelegramBotClient("2024394443:AAFpm5QWmc4fQr3p3xar8dvBWMMZkqJNhRY");
+var botClient = new TelegramBotClient("hidden");
 
 var me = await botClient.GetMeAsync();
 
